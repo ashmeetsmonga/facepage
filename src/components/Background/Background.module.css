@@ -1,0 +1,20 @@
+.Bg {
+	display: inline-block;
+	column-count: 25;
+	column-gap: 0;
+	row-gap: 0px;
+	position: fixed;
+	line-height: 0px;
+	z-index: -1;
+}
+
+.Bg img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+@media (max-width: 800px) {
+	.Bg {
+		column-count: 15;
+	}
+}
